@@ -1,0 +1,76 @@
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.board td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  transition: 0.5s;
+  padding: 15px;
+  background-color: rgb(46, 166, 166);
+  border-radius: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.board td:hover {
+  background-color: rgb(133, 195, 195);
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.difficulties {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: cursive, sans-serif;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid rgb(233, 249, 0);
+  padding: 4px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+input {
+  padding: 7px;
+  margin: 10px;
+  background-color: #dd1717;
+  color: #fff;
+  border: 1px solid rgb(233, 249, 0);
+}
+
+.stopwatch {
+  display: none;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.nextnum {
+  padding-left: 10px;
+  display: none;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+.submit-btn {
+  cursor: pointer;
+}
+
+.game-container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.board {
+  text-align: center;
+  margin: 0 auto;
+}
